@@ -40,9 +40,9 @@ class TestLifeLabsLogin(unittest.TestCase):
 		#user credentials
 		login = browser.find_element_by_css_selector('a.Button.StreamsLogin.js-login').click()
 		user = browser.find_element_by_name('session[username_or_email]')
-		user.send_keys('sipprellosmurf@gmail.com')
+		user.send_keys('')
 		password = browser.find_element_by_name('session[password]')
-		password.send_keys('Wowizlife1')
+		password.send_keys('')
 		login_two = browser.find_element_by_css_selector('input.submit.btn.primary-btn.js-submit').click()
 		browser.implicitly_wait(3)
 		#menuEnter = browser.find_element_by_css_selector('dropdown-toggle-no-caret right middle').click()
